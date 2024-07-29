@@ -1,0 +1,18 @@
+.services-submenucon {
+  width: 15rem;
+  position: absolute;
+  top: 80px;
+  right: 600px;
+  list-style: none;
+  text-align: start;
+}
+.services-submenucon li {
+  background: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.services-submenucon.clicked {
+  display: none;
+}

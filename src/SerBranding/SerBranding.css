@@ -1,0 +1,80 @@
+.SerBrandingmaincontainer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.servicedropdownfirstheader {
+  display: flex;
+  flex-direction: column;
+  padding-top: 180px;
+  background-color: rgb(238, 238, 238);
+  width: 70%;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.servicedropdownfirstheaderdetails {
+  font-size: 30px;
+  font-weight: 600;
+}
+.servicedropdownfirstheaderdtrust {
+  font-size: 80px;
+  font-weight: 600;
+  width: 600px;
+}
+.servicedropdownsecond {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  background-color: rgb(238, 238, 238);
+  width: 70%;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.servicedropdownsecond span {
+  width: 550px;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.servicedropdownthird {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  background-color: rgb(238, 238, 238);
+  width: 70%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+}
+.howcanwehelp {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 600;
+}
+.servicedropdownthirditems {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 70px;
+  align-items: end;
+}
+.servicedropdownthirditem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.servicedropdownthirditemstext {
+  font-size: 18px;
+  width: 500px;
+}
+.eeee {
+  font-size: 30px;
+}
+.eeeee {
+  font-size: 40px;
+}

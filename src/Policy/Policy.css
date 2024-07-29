@@ -1,0 +1,55 @@
+.policymaincontainer {
+  display: flex;
+  justify-content: center;
+}
+.policycontainer {
+  height: auto;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+  width: 1250px;
+  /* gap: 25px; */
+}
+.policyheader {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.policytextcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.policytext {
+  font-size: 19px;
+  line-height: 30px;
+}
+.policysubheader {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.policysubheaderterm {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  /* margin-top: 25px; */
+}
+.policylicense {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.policylicenseroman {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.policydisclaimer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,98 @@
+.Ourservicescontainer {
+  margin-top: 250px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.Ourservicescontainerfirsttext {
+  font-size: 25px;
+  text-align: center;
+  max-width: 1200px;
+  margin-bottom: 100px;
+}
+.ourservicesendmessagecontainer {
+  background-color: white;
+  width: 100%;
+}
+.ourservicesendmessagecontainer {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  background-color: rgb(255, 255, 255);
+}
+.ourservicesendmessagetext {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  width: 450px;
+  text-align: left;
+  line-height: 35px;
+  gap: 20px;
+}
+.ourservicesendmessagetext span {
+  font-size: 55px;
+  font-weight: 600;
+}
+.ourservicesendmessagetext p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ourservicesendmessageform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourservicesendmessageform input {
+  height: 50px;
+}
+.ourservicesendmessageform textarea {
+  height: 250px;
+}
+.ourservicesendmessagenameinput {
+  padding-left: 10px;
+  width: 500px;
+}
+.ourservicesendmessagephoneinput {
+  padding-left: 10px;
+  width: 500px;
+}
+.ourservicesendmessagesubjectinput {
+  padding-left: 10px;
+  width: 500px;
+}
+.ourservicesendmessagemessageinput {
+  padding-left: 10px;
+  width: 500px;
+}
+.ourservicesendmessageemailinput {
+  padding-left: 10px;
+  width: 236.3px;
+}
+.ourservicesendmessagephoneinput {
+  padding-left: 10px;
+  width: 236px;
+}
+.email_phone {
+  display: flex;
+  gap: 12.5px;
+}
+.ourservicesendmessagebtn {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.ourservicesendmessagebtn:hover {
+  transition: 0.3s;
+
+  background-color: rgb(163, 239, 57);
+}

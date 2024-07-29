@@ -1,0 +1,103 @@
+.ContactUscontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+   */
+  align-items: center;
+}
+
+.ContactUsimgcontainer {
+  background-image: url("/src/asset/laptop2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 400px;
+}
+.ContactUsimgcontainer span {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 150px;
+}
+.contactussendmessagecontainer {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 30px;
+  gap: 50px;
+  margin-top: 50px;
+}
+.contactusinformation {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  width: 450px;
+  text-align: left;
+  line-height: 35px;
+  gap: 20px;
+
+  margin-bottom: 35px;
+}
+.contactusinformation div {
+  display: flex;
+  align-items: center;
+}
+.contactusinformation span {
+  margin-left: 20px;
+}
+.contactusinformationicon {
+  font-size: 33px;
+}
+.contactusinformation span {
+  font-size: 19px;
+}
+.contactussendmessageform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactussendmessageform span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.contactussendmessageform input {
+  height: 45px;
+}
+.contactussendmessageform textarea {
+  height: 230px;
+}
+.contactussendmessagenameinput {
+  padding-left: 10px;
+  width: 630px;
+}
+
+.contactussendmessagemessageinput {
+  padding-left: 10px;
+  width: 630px;
+}
+.contactussendmessageemailinput {
+  padding-left: 10px;
+  width: 630px;
+}
+
+.contactussendmessagebtn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+.contactussendmessagebtn:hover {
+  transition: 0.3s;
+
+  background-color: rgb(163, 239, 57);
+}

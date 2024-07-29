@@ -1,0 +1,108 @@
+.service_container {
+  height: 100vh;
+  background-color: rgb(222, 222, 222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+.service_other_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service_other_container {
+  margin-top: 10px;
+  gap: 30px;
+}
+.servicespan {
+  margin-left: 10px;
+}
+.service_container_web {
+  background-image: url("/src/asset/webdev.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: white;
+}
+.service_container_gra {
+  background-image: url("/src/asset/des.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: rgb(250, 250, 250);
+}
+.service_container_seo {
+  background-image: url("/src/asset/seoo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: white;
+}
+.service_container_soc {
+  background-image: url("/src/asset/social.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: rgb(255, 255, 255);
+}
+.service_container_mob {
+  background-image: url("/src/asset/mobile.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: white;
+}
+.service_container_ecomm {
+  background-image: url("/src/asset/ecomm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  width: 30vw;
+  color: white;
+}
+.icon_container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: rgb(163, 239, 57);
+}
+.icon_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
