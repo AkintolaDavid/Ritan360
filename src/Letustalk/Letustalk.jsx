@@ -12,7 +12,7 @@ export const Letustalk = () => {
 
     try {
       const response = await fetch(
-        "/https://ritan-server.onrender.com/submit_letustalk_form",
+        "/https://ritan-server.onrender.com/api/submit_letustalk_form",
         {
           method: "POST",
           headers: {

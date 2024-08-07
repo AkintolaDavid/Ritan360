@@ -154,7 +154,7 @@
     z-index: 1;
   }
   .designWeb {
-    position: absolute;
+    /* position: absolute;
     color: white;
     font-size: 6rem;
     font-weight: 700;
@@ -165,6 +165,17 @@
     border-radius: 5px;
     text-align: center;
     width: 900px;
+    z-index: 1; */
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    top: 33%;
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    width: 600px;
     z-index: 1;
   }
   .navbar {
@@ -294,15 +305,14 @@
   }
   .designWeb {
     position: absolute;
-    color: white;
+    bottom: 20px;
+    left: 50px;
+    top: 33%;
+    color: rgb(255, 255, 255);
     font-size: 5rem;
     font-weight: 700;
-    left: 13%;
-    top: 33%;
-    bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
     width: 600px;
     z-index: 1;
   }
@@ -391,10 +401,9 @@
     z-index: 1;
   }
   .designWeb {
-    /* left: 0px; */
     position: absolute;
     bottom: 20px;
-    left: -20px;
+    left: -50px;
     top: 26%;
     color: rgb(255, 255, 255);
     font-size: 4.5rem;
@@ -496,7 +505,7 @@
     /* left: 0px; */
     position: absolute;
     bottom: 20px;
-    left: -20px;
+    left: -60px;
     top: 20%;
     color: rgb(255, 255, 255);
     font-size: 3rem;

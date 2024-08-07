@@ -39,7 +39,7 @@ export const Navbar = ({ teamsRef }) => {
   const handleMouseLeave = (setDropdownFn, setDropdownTimeoutFn) => {
     const timeout = setTimeout(() => {
       setDropdownFn(false);
-    }, 350); // 2 seconds delay
+    }, 200); // 2 seconds delay
     setDropdownTimeoutFn(timeout);
   };
   const handleMouseEntercon = (setDropdownFn, setDropdownTimeoutFn) => {
@@ -53,7 +53,7 @@ export const Navbar = ({ teamsRef }) => {
   const handleMouseLeavecon = (setDropdownFn, setDropdownTimeoutFn) => {
     const timeout = setTimeout(() => {
       setDropdownFn(false);
-    }, 500); // 2 seconds delay
+    }, 200); // 2 seconds delay
     setDropdownTimeoutFn(timeout);
   };
 
@@ -93,7 +93,7 @@ export const Navbar = ({ teamsRef }) => {
           <div className="navbar">
             <div className="navbar_left">
               <Link to="/">
-                <img src={logo} alt="logo" className="navbarlogo" />
+                <img src={logo} alt="logo" className="navbarlogo" />,{" "}
               </Link>
               <ul className="nav-items">
                 {navItems.map((item) => {

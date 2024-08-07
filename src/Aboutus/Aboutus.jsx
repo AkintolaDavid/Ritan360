@@ -17,7 +17,7 @@ export const Aboutus = () => {
 
     try {
       const response = await fetch(
-        "https://ritan-server.onrender.com/submit_aboutus_form",
+        "https://ritan-server.onrender.com/api/submit_aboutus_form",
         {
           method: "POST",
           headers: {
