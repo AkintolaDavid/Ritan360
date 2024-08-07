@@ -15,18 +15,21 @@ export const ContactUs = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/submit_contactus_form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-          from,
-        }),
-      });
+      const response = await fetch(
+        "https://ritan-server.onrender.com/submit_contactus_form",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            message,
+            from,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");

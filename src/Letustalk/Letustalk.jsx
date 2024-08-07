@@ -11,20 +11,23 @@ export const Letustalk = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/submit_letustalk_form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          phoneNumber,
-          subject,
-          message,
-          from,
-        }),
-      });
+      const response = await fetch(
+        "/https://ritan-server.onrender.com/submit_letustalk_form",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phoneNumber,
+            subject,
+            message,
+            from,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
