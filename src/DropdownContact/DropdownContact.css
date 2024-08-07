@@ -2,12 +2,13 @@
   width: 15rem;
   position: absolute;
   top: 80px;
-  right: 600px;
+  right: 650px;
   list-style: none;
   text-align: start;
+  z-index: 5;
 }
 .services-submenucon li {
-  background: rgb(0, 0, 0);
+  background-color: rgb(163, 239, 57);
   color: white;
   cursor: pointer;
   padding-top: 5px;
@@ -15,4 +16,50 @@
 
 .services-submenucon.clicked {
   display: none;
+}
+@media (min-width: 1000.1px) and (max-width: 1080px) {
+  .services-submenucon {
+    width: 15rem;
+    position: absolute;
+    top: 65px;
+    right: 28%;
+    list-style: none;
+    text-align: start;
+    z-index: 5;
+  }
+}
+@media (min-width: 1080.1px) and (max-width: 1150px) {
+  .services-submenucon {
+    width: 15rem;
+    position: absolute;
+    top: 65px;
+    right: 33%;
+    list-style: none;
+    text-align: start;
+    z-index: 5;
+  }
+}
+
+@media (min-width: 1150.1px) {
+  .services-submenucon {
+    width: 15rem;
+    position: absolute;
+    top: 65px;
+    right: 37%;
+    list-style: none;
+    text-align: start;
+    z-index: 5;
+  }
+}
+
+@media (max-width: 1000px) {
+  .services-submenucon {
+    width: 15rem;
+
+    position: absolute;
+    top: 210px;
+    right: 10px;
+    list-style: none;
+    text-align: start;
+  }
 }

@@ -8,14 +8,16 @@ import a from "../../asset/laptop1.jpg";
 import b from "../../asset/laptop2.jpeg";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
+import { Navbar } from "../../Navbar/Navbar";
+import { Contactme } from "../../Contactme/Contactme";
 export const LandingPage = () => {
   const images = [
-    { src: b, text: "Intelligent Design", classname: "intDes" },
-    { src: a, text: "We Design Websites", classname: "desWeb" },
+    { src: b, text: "Intelligent Design", classname: "intDesign" },
+    { src: a, text: "We Design Websites", classname: "designWeb" },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
-    const interval = setInterval(goToNextImage, 4000);
+    const interval = setInterval(goToNextImage, 3000);
     return () => clearInterval(interval);
   }, []);
   const goToNextImage = () => {
@@ -31,8 +33,9 @@ export const LandingPage = () => {
   return (
     <>
       <div className="container">
+        <Navbar />
         <FaAngleLeft onClick={goToPrevImage} className="FaArrowLeft" />
-        <div className="image-container">
+        <div className="imagecontainer">
           <img
             className="containerimg"
             src={images[currentIndex].src}

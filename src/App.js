@@ -1,10 +1,11 @@
+import { useLocation } from "react-router-dom";
 import { LandingPage } from "./components/LandingPage/LandingPage";
 import { Aboutus } from "./Aboutus/Aboutus";
 import { Contactme } from "./Contactme/Contactme";
 import { Navbar } from "./Navbar/Navbar";
 import { Ourservices } from "./Ourservices/Ourservices";
 import { ContactUs } from "./ContactUs/ContactUs";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { Policy } from "./Policy/Policy";
 import { Blog } from "./Blog/Blog";
 import ScrollToTop from "./ScrollToTop";
@@ -15,28 +16,33 @@ import { SeoAndDigital } from "./SeoAndDigital/SeoAndDigital";
 import { WebDesCom } from "./WebDesCom";
 import { WebDevCom } from "./WebDevCom";
 import { WordPressDev } from "./WordPressDev";
+import { Sidemenu } from "./Sidemenu";
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <ScrollToTop />
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
-          <Route path="/" element={<LandingPage />}></Route>
-          <Route path="/aboutus" element={<Aboutus />}></Route>
-          <Route path="/ourservices" element={<Ourservices />}></Route>
-          <Route path="/contactus" element={<ContactUs />}></Route>
-          <Route path="/policy" element={<Policy />}></Route>
-          <Route path="/blog" element={<Blog />}></Route>
-          <Route path="/brandingservice" element={<SerBranding />}></Route>
-          <Route path="/eCommercesolution" element={<Ecommsolution />}></Route>
-          <Route path="/mobileAppDev" element={<MobileAppDev />}></Route>
-          <Route path="/seoAndDigital" element={<SeoAndDigital />}></Route>
-          <Route path="/webDesignCompany" element={<WebDesCom />}></Route>
-          <Route path="/webDevCompany" element={<WebDevCom />}></Route>
-          <Route path="/wordPress" element={<WordPressDev />}></Route>
+          <Route>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/aboutus" element={<Aboutus />} />
+            <Route path="/ourservices" element={<Ourservices />} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/policy" element={<Policy />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/brandingservice" element={<SerBranding />} />
+            <Route path="/eCommercesolution" element={<Ecommsolution />} />
+            <Route path="/mobileAppDev" element={<MobileAppDev />} />
+            <Route path="/seoAndDigital" element={<SeoAndDigital />} />
+            <Route path="/webDesignCompany" element={<WebDesCom />} />
+            <Route path="/webDevCompany" element={<WebDevCom />} />
+            <Route path="/wordPress" element={<WordPressDev />} />
+            <Route path="/Sidemenu" element={<Sidemenu />} />
+          </Route>
         </Routes>
-        <Contactme />
+        {/* <Contactme /> */}
       </BrowserRouter>
     </>
   );

@@ -25,10 +25,10 @@ export const Services = () => {
             <div className="icon_container">
               <div className="icon_main">
                 {" "}
-                <LiaCreativeCommonsShare />
+                <LiaCreativeCommonsShare className="commonshare" />
               </div>
             </div>
-            <span className="servicespan"> Creative Graphic Design</span>
+            <span className="servicespan"> Creative Graphics Design</span>
           </div>
           <div className="service_container_seo">
             <div className="icon_container">
