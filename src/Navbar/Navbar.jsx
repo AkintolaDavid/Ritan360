@@ -114,9 +114,8 @@ export const Navbar = ({ teamsRef }) => {
                             handleMouseLeave(setDropdown, setDropdownTimeout)
                           }
                         >
-                          {item.title}
-                          {dropdown && <Dropdown />}
-                        </li>
+                          {item.title} {dropdown && <Dropdown />}
+                        </li>{" "}
                       </Link>
                     );
                   }
